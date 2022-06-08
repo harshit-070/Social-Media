@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-bar {
+  background: black;
+}
+
+html,
+body {
+  height: 100%;
+}
+/*img{
+    width:500px;
+    height:300px;
+}*/
+
+.container {
+  min-height: 100%;
+}
+
+.chatbox {
+  height: 600px;
+  overflow-y: auto;
+}
+
+.typemsg {
+  width: 92%;
+}
+
+.message {
+  width: 24%;
+  padding: 10px;
+  margin: 17px 3px;
+  border-radius: 10px;
+}
+
+.left {
+  background-color: #deeaee;
+  float: left;
+  clear: both;
+}
+
+.right {
+  background-color: #80ced6;
+  float: right;
+  clear: both;
+}
+
+#guest-photo {
+  width: 600px;
+  height: 500px;
+}
+
+.avatar-small {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-right: 5px;
+  position: relative;
+  top: -3px;
+}
+
+.avatar-tiny {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
+}
+
+.pt-2,
+.py-2 {
+  padding-top: 0.5rem !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.cntr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fo4 {
+  width: 800px;
+  height: 500px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-chat-icon {
+  height: 30px;
+  width: 30px;
+}
